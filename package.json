@@ -1,0 +1,25 @@
+{
+  "name": "merry-timeline",
+  "version": "0.1.0",
+  "description": "Merry Timeline",
+  "main": "dist/merry-timeline.cjs.js",
+  "module": "dist/merry-timeline.esm.js",
+  "browser": "dist/merry-timeline.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "color": "#b6bfcb",
+    "text": "Cloudy",
+    "annotation": "-5°",
+    "time": 1672203600
+  },
+  {
+    "color": "#b6bfcb",
+    "text": "Cloudy",
+    "annotation": "-4°",
+    "time": 1672207200
+  },
+  {
+    "color": "#b6bfcb",
+    "text": "Cloudy",
+    "annotation": "-4°",
+    "time": 1672210800
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "-4°",
+    "time": 1672214400
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "-4°",
+    "time": 1672218000
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "-4°",
+    "time": 1672221600
+  },
+  {
+    "color": "#8c82ce",
+    "text": "Snow",
+    "annotation": "-4°",
+    "time": 1672225200
+  },
+  {
+    "color": "#8c82ce",
+    "text": "Snow",
+    "annotation": "-3°",
+    "time": 1672228800
+  },
+  {
+    "color": "#8c82ce",
+    "text": "Snow",
+    "annotation": "-3°",
+    "time": 1672232400
+  },
+  {
+    "color": "#8c82ce",
+    "text": "Snow",
+    "annotation": "-2°",
+    "time": 1672236000
+  },
+  {
+    "color": "#aba4db",
+    "text": "Light Snow",
+    "annotation": "-2°",
+    "time": 1672239600
+  },
+  {
+    "color": "#aba4db",
+    "text": "Light Snow",
+    "annotation": "-1°",
+    "time": 1672243200
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "0°",
+    "time": 1672246800
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "0°",
+    "time": 1672250400
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "0°",
+    "time": 1672254000
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "0°",
+    "time": 1672257600
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "1°",
+    "time": 1672261200
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "1°",
+    "time": 1672264800
+  },
+  {
+    "color": "#b7b2db",
+    "text": "Flurries",
+    "annotation": "1°",
+    "time": 1672268400
+  },
+  { "color": "#d5dae2", "text": "Fog", "annotation": "1°", "time": 1672272000 },
+  { "color": "#d5dae2", "text": "Fog", "annotation": "1°", "time": 1672275600 },
+  {
+    "color": "#b6bfcb",
+    "text": "Cloudy",
+    "annotation": "1°",
+    "time": 1672279200
+  },
+  { "color": "#d5dae2", "text": "Fog", "annotation": "1°", "time": 1672282800 },
+  { "color": "#d5dae2", "text": "Fog", "annotation": "1°", "time": 1672286400 }
+]

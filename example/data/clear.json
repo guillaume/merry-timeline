@@ -1,0 +1,146 @@
+[
+  {
+    "color": "#b6bfcb",
+    "text": "Cloudy",
+    "annotation": "-4°",
+    "time": 1672117200
+  },
+  {
+    "color": "#b6bfcb",
+    "text": "Cloudy",
+    "annotation": "-5°",
+    "time": 1672120800
+  },
+  {
+    "color": "#d5dae2",
+    "text": "Partly Cloudy",
+    "annotation": "-5°",
+    "time": 1672124400
+  },
+  {
+    "color": "#d5dae2",
+    "text": "Partly Cloudy",
+    "annotation": "-6°",
+    "time": 1672128000
+  },
+  {
+    "color": "#d5dae2",
+    "text": "Partly Cloudy",
+    "annotation": "-6°",
+    "time": 1672131600
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-6°",
+    "time": 1672135200
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-7°",
+    "time": 1672138800
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-7°",
+    "time": 1672142400
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-6°",
+    "time": 1672146000
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-4°",
+    "time": 1672149600
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-2°",
+    "time": 1672153200
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-1°",
+    "time": 1672156800
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "1°",
+    "time": 1672160400
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "3°",
+    "time": 1672164000
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "3°",
+    "time": 1672167600
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "3°",
+    "time": 1672171200
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "2°",
+    "time": 1672174800
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "0°",
+    "time": 1672178400
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "0°",
+    "time": 1672182000
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-1°",
+    "time": 1672185600
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-1°",
+    "time": 1672189200
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-1°",
+    "time": 1672192800
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-1°",
+    "time": 1672196400
+  },
+  {
+    "color": "#eeeef5",
+    "text": "Clear",
+    "annotation": "-1°",
+    "time": 1672200000
+  }
+]
