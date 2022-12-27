@@ -1,4 +1,4 @@
-import timeline from "../src/index.js";
+import timeline from "../index.js";
 
 const fetchExample = async (name) => {
   const response = await fetch(`data/${name}.json`);
