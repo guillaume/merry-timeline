@@ -4,6 +4,14 @@ A library for displaying hourly data.
 
 <img src="https://raw.githubusercontent.com/guillaume/merry-timeline/master/docs/examples.png" alt="examples" width="600px"/>
 
+Setup
+
+```
+npm i merry-timeline
+```
+
+Example
+
 ```
 import timeline from "merry-timeline";
 
