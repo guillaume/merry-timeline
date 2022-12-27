@@ -1,4 +1,12 @@
-[
+# Merry Timeline
+
+A library for displaying hourly data.
+<img src="https://raw.githubusercontent.com/guillaume/merry-timeline/master/docs/examples.png" alt="examples" width="160px"/>
+
+```
+import timeline from "merry-timeline";
+
+const data = [
   { "time": 1671080400, "color": "#333333", "text": "Sleep" },
   { "time": 1671084000, "color": "#333333", "text": "Sleep" },
   { "time": 1671087600, "color": "#333333", "text": "Sleep" },
@@ -24,3 +32,26 @@
   { "time": 1671159600, "color": "#333333", "text": "Sleep" },
   { "time": 1671163200, "color": "#333333", "text": "Sleep" }
 ]
+
+
+const exampleDiv = document.createElement("div");
+const options = { timezone: "America/Toronto" };
+timeline(exampleDiv, hourly, options);
+```
+
+Data is a list where each item contain those attributes:
+
+- `time` : time in seconds, beginning of the hour
+- `color` : background color of the stripe
+- `text` : text overlay above the stripe
+
+Browse [examples](!https://guillaume.github.io/merry-timeline/example/) for usage
+
+## Options
+
+- `timezone` timezone to format the timestamp at. if not provided, uses the user's timezone
+- `width` fixed width of the timeline, otherwise it's responsive
+
+## Acknowledgement
+
+The visuals were very much inspired by [darksky](!https://darksky.net/)'s forecasting day of precipitations. Going forward, since it is shutting down, this library allows others to benefit from this timeline representation with ease and configuration.
