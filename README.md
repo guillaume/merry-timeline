@@ -54,7 +54,7 @@ Data is a list where each item contain those attributes:
 - `color` : background color of the stripe
 - `text` : text overlay above the stripe
 
-Browse [examples](!https://guillaume.github.io/merry-timeline/example/) for usage
+Browse [examples](https://guillaume.github.io/merry-timeline/examples/) for usage
 
 ## Options
 
