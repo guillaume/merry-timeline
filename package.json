@@ -1,6 +1,6 @@
 {
   "name": "merry-timeline",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Merry Timeline",
   "main": "dist/merry-timeline.cjs.js",
   "module": "dist/merry-timeline.esm.js",
