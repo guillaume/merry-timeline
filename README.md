@@ -1,6 +1,6 @@
 # Merry Timeline
 
-A library for displaying hourly data. This is used for displaying precipitation forcasts at [merrysky.net](https://merrysky.net/)
+A library for displaying hourly data. This is used for displaying precipitation forecasts at [merrysky.net](https://merrysky.net/)
 
 <img src="https://raw.githubusercontent.com/guillaume/merry-timeline/master/docs/examples.png" alt="examples" width="600px"/>
 
