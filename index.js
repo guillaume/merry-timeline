@@ -87,9 +87,9 @@ const init = (domElement, merryData, options) => {
       ? "1px 1px 0 rgb(255 255 255 / 50%)"
       : "1px 1px 0 rgb(0 0 0 / 50%)";
 
-    stripeDom.style.opacity =  options?.opacity ? options.opacity(stripe) : 1;
+    stripeDom.style.opacity = options?.opacity ? options.opacity(stripe) : 1;
     stripeDom.title = text;
-    
+
     if (stripe.length > 1) {
       stripeDom.innerText = text;
     }
@@ -97,7 +97,7 @@ const init = (domElement, merryData, options) => {
     prevWidth += width;
   });
 
-  const now = new Date().valueOf() / 1000;
+  const now = options.tracker || new Date().valueOf() / 1000;
   const { start, end } = getTimelineRange(merryData);
   if (now > start && now < end) {
     const currentTimeDom = document.createElement("div");
