@@ -1,8 +1,7 @@
 {
   "name": "merry-timeline",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Merry Timeline",
-  "main": "dist/merry-timeline.cjs.js",
   "module": "dist/merry-timeline.esm.js",
   "browser": "dist/merry-timeline.umd.js",
   "scripts": {
@@ -10,6 +9,7 @@
     "test": "node test/spec",
     "pretest": "npm run build"
   },
+  "main": "index.js",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",

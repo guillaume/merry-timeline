@@ -65,8 +65,8 @@ const init = (domElement, merryData, options) => {
 
   let prevWidth = 0;
   stripes.forEach((stripe) => {
-    const text = stripe[0].text;
-    const color = stripe[0].color;
+    const text = options?.text ? options.text(stripe) : stripe[0].text;
+    const color = options?.color ? options.color(stripe) : stripe[0].color;
     const width = (stripe.length / merryData.length) * timelineWidth;
     const stripeDom = document.createElement("span");
 
@@ -81,13 +81,15 @@ const init = (domElement, merryData, options) => {
     stripeDom.style.width = width + "px";
     stripeDom.style.left = prevWidth + "px";
     stripeDom.style.backgroundColor = color;
-    const textColorBlack = isDarkText(color); //isTextColorBlack(category);
+    const textColorBlack = isDarkText(color);
     stripeDom.style.color = textColorBlack ? "#333" : "#fff";
     stripeDom.style.textShadow = textColorBlack
       ? "1px 1px 0 rgb(255 255 255 / 50%)"
       : "1px 1px 0 rgb(0 0 0 / 50%)";
 
+    stripeDom.style.opacity =  options?.opacity ? options.opacity(stripe) : 1;
     stripeDom.title = text;
+    
     if (stripe.length > 1) {
       stripeDom.innerText = text;
     }
