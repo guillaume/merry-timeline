@@ -90,7 +90,7 @@ const init = (domElement, merryData, options) => {
     stripeDom.style.opacity = options?.opacity ? options.opacity(stripe) : 1;
     stripeDom.title = text;
 
-    if (stripe.length > 1) {
+    if (width > 40) {
       stripeDom.innerText = text;
     }
     stripesDom.appendChild(stripeDom);
